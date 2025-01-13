@@ -251,24 +251,24 @@ Band g_bandList[] =
 uint16_t SWSubBands[] =
 {
     SW_LIMIT_LOW,  // 160 Meter
-    3500, // 80 Meter
-    4500, 
-    5600,
-    6800, // 40 Meter
-    7200, // 41 Meter
-    8500, 
-    10000, // 30 Meter
-    11200,
-    13400, 
-    14000, // 20 Meter
+    3600, // 80 Meter
+    4700, 
+    5800,
+    7100, // 40 Meter
+    7250, // 41 Meter
+    9400, 
+    10100, // 30 Meter
+    11500,
+    13500, 
+    14200, // 20 Meter
     15000,
-    17200, 
-    18000, // 17 Meter
-    21000, // 15 Meter
-    21400, // 13 Meter
+    17400, 
+    18100, // 17 Meter
+    21200, // 15 Meter
+    21450, // 13 Meter
     24890, // 12 Meter
     CB_LIMIT_LOW, // CB Band (11 Meter)
-    CB_LIMIT_HIGH  // 10 Meter
+    28400  // 10 Meter
 };
 const uint8_t g_SWSubBandCount = sizeof(SWSubBands) / sizeof(uint16_t);
 const uint8_t g_lastBand = (sizeof(g_bandList) / sizeof(Band)) - 1;
